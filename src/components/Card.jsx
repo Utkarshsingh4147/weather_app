@@ -6,7 +6,7 @@ const Card = () => {
   const [error, seterror] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const API_KEY = '0429bbfa1801e77736a0ac3b8ef45585';
+  const API_KEY = 'yourAPIKey'; //better store in .env file
 
   async function handleClick() {
     if (!city) return;
